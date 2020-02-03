@@ -9,59 +9,84 @@ Date: Jan 6, 2020
 /*style the top nav */
 .topnav {
   overflow: hidden;
-  background-color: #660066;
+  background-color: #ccffcc;
+  border-style: double solid;
+  box-shadow: 5px 10px 10px black;
+  margin: 2px;
 }
 
 /* Style the topnav links */
 .topnav a {
-  float: left;
+  float: right;
   display: block;
-  color: #ccffff;
+  color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 15px 18px;
   text-decoration: none;
 }
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #cce6ff;
   color: black;
 }
 
 
 /* Style the header */
 header {
-	color:red;
 	padding: 20px;
-	text-align: center;
-	background-color:#99ccff;
+	background: url(my_img3.jpg) 100%/ cover no-repeat;
+	height: 700px;
+	border-style: double solid;
+	margin: 1px;
 }
+
 
 /*Style the h1*/
 h1 { 
-	color:#009900;
-	font-size:40px;
-	text-shadow: 2px 2px #FF0000;
+	text-align: center;
+	color:white;
+	font-size:50px;
+	text-shadow: 2px 2px #cce6ff;
+}
+
+/*Style h2 */
+h2 {
+	color: #cce6ff;
+	text-align: bottom;
 }
 
 
 /* Create two columns/boxes that floats next to each other */
 article {
   float: left;
-  width: 15%;
+  width: 130 px;
   height: 190px; 
-  padding: 10px;
+  padding: 20px;
   box-shadow: 5px 10px 10px black;
+  position: relative;
+  margin: 10px;
 }	
 
+/* Style the section */
+section {
+	position: relative;
+	margin-left: 3%;
+	padding: 5px;
+}
+
+/*Style the main */
 main {
-	background-color:#99ccff;
+	background-color: #cce6ff;
+	border-style: double solid;
+	margin: 1px;
 }
 
 
+/*Style all the paragraph in the section*/
  section > p {
 	padding-left: 250px;
-	
+	font-size: 20px;
 }
 
 /* Clear floats after the columns */
@@ -72,9 +97,32 @@ section:after {
   background-color:#99ccff;
 }
 
+/*Style the body */
 body {
-	background-color:#1a0013;
+	background-color:#ccffcc;
 	margin:0;
 }
 
+/*Style the footer*/
+footer {
+	background-color:#cce6ff;
+	border-style: double solid;
+	margin: 1px;
+}
+
+/*Style p of the footer*/
+footer p {
+	text-align:center;
+}
+
+/*Remove all the underline of the links*/
+a {
+	text-decoration: none;
+}
+
+/*Style the div block which class is afterfloat */
+.afterfloat {
+	margin: 2%;
+	font-size: 18px;
+}
 
